@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narendra Kumar Sen | International Support & Service Operations Lead</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f0f7ff',
+                            100: '#e0effe',
+                            500: '#0284c7',
+                            600: '#0369a1',
+                            700: '#075985',
+                            900: '#0c4a6e',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glass-card {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(226, 232, 240, 0.8);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-brand-500 selection:text-white">
+
+    <!-- Header / Navbar -->
+    <header class="fixed top-0 left-0 right-0 z-50 glass-card border-b border-slate-200/80">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <a href="#hero" class="text-xl font-bold text-slate-900 tracking-tight flex items-center gap-2">
+                <span class="w-8 h-8 rounded-lg bg-brand-600 text-white flex items-center justify-center font-extrabold text-sm">NS</span>
+                <span>Narendra <span class="text-brand-600">Sen</span></span>
+            </a>
+
+            <!-- Desktop Nav -->
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
+                <a href="#about" class="hover:text-brand-600 transition-colors">About</a>
+                <a href="#skills" class="hover:text-brand-600 transition-colors">Skills & Tech</a>
+                <a href="#experience" class="hover:text-brand-600 transition-colors">Experience</a>
+                <a href="#achievements" class="hover:text-brand-600 transition-colors">Achievements</a>
+                <a href="#contact" class="px-4 py-2 rounded-lg bg-brand-600 text-white hover:bg-brand-700 transition-colors shadow-sm">Contact Me</a>
+            </nav>
+
+            <!-- Mobile Menu Toggle -->
+            <button id="mobile-menu-btn" class="md:hidden text-slate-600 hover:text-slate-900 focus:outline-none">
+                <i class="fa-solid fa-bars text-xl"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Nav Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-slate-200 px-4 pt-2 pb-4 space-y-2">
+            <a href="#about" class="block py-2 text-slate-600 hover:text-brand-600">About</a>
+            <a href="#skills" class="block py-2 text-slate-600 hover:text-brand-600">Skills & Tech</a>
+            <a href="#experience" class="block py-2 text-slate-600 hover:text-brand-600">Experience</a>
+            <a href="#achievements" class="block py-2 text-slate-600 hover:text-brand-600">Achievements</a>
+            <a href="#contact" class="block py-2 text-brand-600 font-semibold">Contact Me</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="pt-32 pb-20 md:pt-40 md:pb-28 bg-gradient-to-b from-brand-50/50 via-slate-50 to-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-8 space-y-6">
+                    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-brand-100/80 text-brand-700 text-xs font-semibold tracking-wide uppercase">
+                        <i class="fa-solid fa-circle text-[8px] animate-pulse text-emerald-500"></i>
+                        9+ Years International Experience (UK & Ireland)
+                    </div>
+                    
+                    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-tight">
+                        International Customer Support & <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-600 to-indigo-600">Service Operations Lead</span>
+                    </h1>
+
+                    <p class="text-lg text-slate-600 leading-relaxed max-w-2xl">
+                        Expert in enterprise support, escalations, billing ops, and multi-channel customer experience across Telecom & Fintech environments. Specialized in high-volume operations, SLA compliance, and cross-functional case resolution.
+                    </p>
+
+                    <!-- Quick Info Badges -->
+                    <div class="flex flex-wrap gap-y-2 gap-x-6 text-sm font-medium text-slate-500 pt-2">
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-location-dot text-brand-600"></i> New Delhi, India
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-envelope text-brand-600"></i> narendra.sen@hotmail.com
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-phone text-brand-600"></i> +91 9220038001
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="flex flex-wrap items-center gap-4 pt-4">
+                        <a href="https://linkedin.com/in/narendrakumarsen" target="_blank" rel="noopener noreferrer" class="px-6 py-3 rounded-xl bg-slate-900 text-white font-medium hover:bg-slate-800 transition-all shadow-md hover:shadow-lg flex items-center gap-2">
+                            <i class="fa-brands fa-linkedin text-lg"></i> LinkedIn Profile
+                        </a>
+                        <a href="#contact" class="px-6 py-3 rounded-xl bg-brand-600 text-white font-medium hover:bg-brand-700 transition-all shadow-md hover:shadow-lg flex items-center gap-2">
+                            <i class="fa-solid fa-paper-plane"></i> Get In Touch
+                        </a>
+                        <a href="Narendra_Kumar_Sen_International_Customer_Service.pdf" download class="px-6 py-3 rounded-xl border border-slate-300 text-slate-700 font-medium hover:bg-slate-100 transition-all flex items-center gap-2">
+                            <i class="fa-solid fa-download"></i> Resume PDF
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Stats Highlights Card -->
+                <div class="lg:col-span-4">
+                    <div class="bg-white p-6 rounded-2xl shadow-xl border border-slate-100 space-y-6">
+                        <h3 class="text-xs font-bold text-slate-400 tracking-wider uppercase">Key Impact Metrics</h3>
+                        
+                        <div class="divide-y divide-slate-100">
+                            <div class="py-3 flex items-center justify-between">
+                                <span class="text-slate-600 font-medium text-sm">Experience</span>
+                                <span class="text-2xl font-bold text-brand-600">9+ Years</span>
+                            </div>
+                            <div class="py-3 flex items-center justify-between">
+                                <span class="text-slate-600 font-medium text-sm">International Markets</span>
+                                <span class="text-base font-bold text-slate-900">UK & Ireland</span>
+                            </div>
+                            <div class="py-3 flex items-center justify-between">
+                                <span class="text-slate-600 font-medium text-sm">Domains</span>
+                                <span class="text-base font-bold text-slate-900">Fintech & Telecom</span>
+                            </div>
+                            <div class="py-3 flex items-center justify-between">
+                                <span class="text-slate-600 font-medium text-sm">SLA Adherence</span>
+                                <span class="text-2xl font-bold text-emerald-600">99.8%</span>
+                            </div>
+                        </div>
+
+                        <div class="p-4 bg-slate-50 rounded-xl text-xs text-slate-500 flex items-start gap-3">
+                            <i class="fa-solid fa-shield-check text-brand-600 text-lg mt-0.5"></i>
+                            <span>Proven track record in managing critical enterprise accounts, handling P1-P4 incidents, and complex operations.</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Overview / About Section -->
+    <section id="about" class="py-16 bg-white border-y border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl">
+                <h2 class="text-xs font-bold text-brand-600 tracking-wider uppercase mb-2">Professional Summary</h2>
+                <p class="text-3xl font-extrabold text-slate-900 tracking-tight mb-6">Expertise built on trust, operational excellence, and customer retention.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
+                <div class="p-6 bg-slate-50 rounded-2xl border border-slate-100 hover:shadow-md transition-shadow">
+                    <div class="w-12 h-12 bg-brand-100 text-brand-600 rounded-xl flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-headset"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Multi-Channel Support</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Mastery across Voice, Email, and Chat channels catering to international enterprise clients, account managers, and retail partners.
+                    </p>
+                </div>
+
+                <div class="p-6 bg-slate-50 rounded-2xl border border-slate-100 hover:shadow-md transition-shadow">
+                    <div class="w-12 h-12 bg-brand-100 text-brand-600 rounded-xl flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-diagram-project"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Escalation & Case Ownership</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        End-to-end management of complex incident tickets, complaint recovery, cross-functional SLA tracking, and root-cause resolution.
+                    </p>
+                </div>
+
+                <div class="p-6 bg-slate-50 rounded-2xl border border-slate-100 hover:shadow-md transition-shadow">
+                    <div class="w-12 h-12 bg-brand-100 text-brand-600 rounded-xl flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-vault"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-slate-900 mb-2">Fintech & Telecom Expertise</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Hands-on operational control for UPI, AEPS, DMT, BBPS, MATM, Geographic Number Portability (GNP), One Net & Microsoft CSP setups.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Tools Matrix Section -->
+    <section id="skills" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-xs font-bold text-brand-600 tracking-wider uppercase mb-2">Technical Proficiency</h2>
+                <p class="text-3xl font-extrabold text-slate-900 tracking-tight">Core Competencies & Tools</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <!-- Skill Group 1 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                    <h3 class="text-base font-bold text-slate-900 mb-4 pb-2 border-b border-slate-100 flex items-center gap-2">
+                        <i class="fa-solid fa-users text-brand-600"></i> Operations & Support
+                    </h3>
+                    <ul class="space-y-2.5 text-sm text-slate-600">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-brand-500"></i> International Support (UK/IE)</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-brand-500"></i> Inbound/Outbound Voice</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-brand-500"></i> Retention & Service Recovery</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-brand-500"></i> Escalation Management</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-brand-500"></i> End-to-End Case Ownership</li>
+                    </ul>
+                </div>
+
+                <!-- Skill Group 2 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                    <h3 class="text-base font-bold text-slate-900 mb-4 pb-2 border-b border-slate-100 flex items-center gap-2">
+                        <i class="fa-solid fa-sliders text-brand-600"></i> Quality & Compliance
+                    </h3>
+                    <ul class="space-y-2.5 text-sm text-slate-600">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-brand-500"></i> SLA & TAT Adherence</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-brand-500"></i> Quality Process Compliance</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-brand-500"></i> CRM Documentation</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-brand-500"></i> Issue Prioritization (P1-P4)</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-brand-500"></i> Active Listening & Empathy</li>
+                    </ul>
+                </div>
+
+                <!-- Skill Group 3 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                    <h3 class="text-base font-bold text-slate-900 mb-4 pb-2 border-b border-slate-100 flex items-center gap-2">
+                        <i class="fa-solid fa-layer-group text-brand-600"></i> Domain Expertise
+                    </h3>
+                    <ul class="space-y-2.5 text-sm text-slate-600">
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-brand-500"></i> Fintech: UPI, AEPS, DMT, BBPS</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-brand-500"></i> Micro ATM (MATM) Ops</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-brand-500"></i> Geographic Number Portability</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-brand-500"></i> Mobile & Fixed-Line Billing</li>
+                        <li class="flex items-center gap-2"><i class="fa-solid fa-check text-xs text-brand-500"></i> Enterprise Telecom Services</li>
+                    </ul>
+                </div>
+
+                <!-- Skill Group 4 -->
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-200">
+                    <h3 class="text-base font-bold text-slate-900 mb-4 pb-2 border-b border-slate-100 flex items-center gap-2">
+                        <i class="fa-solid fa-screwdriver-wrench text-brand-600"></i> CRM & Platforms
+                    </h3>
+                    <div class="flex flex-wrap gap-1.5 pt-1">
+                        <span class="px-2.5 py-1 bg-slate-100 text-slate-700 text-xs font-medium rounded-lg">Salesforce</span>
+                        <span class="px-2.5 py-1 bg-slate-100 text-slate-700 text-xs font-medium rounded-lg">Zoho CRM</span>
+                        <span class="px-2.5 py-1 bg-slate-100 text-slate-700 text-xs font-medium rounded-lg">BMC Remedy</span>
+                        <span class="px-2.5 py-1 bg-slate-100 text-slate-700 text-xs font-medium rounded-lg">ServiceNow</span>
+                        <span class="px-2.5 py-1 bg-slate-100 text-slate-700 text-xs font-medium rounded-lg">Jira</span>
+                        <span class="px-2.5 py-1 bg-slate-100 text-slate-700 text-xs font-medium rounded-lg">NICE</span>
+                        <span class="px-2.5 py-1 bg-slate-100 text-slate-700 text-xs font-medium rounded-lg">Genesys</span>
+                        <span class="px-2.5 py-1 bg-slate-100 text-slate-700 text-xs font-medium rounded-lg">Siebel</span>
+                        <span class="px-2.5 py-1 bg-slate-100 text-slate-700 text-xs font-medium rounded-lg">Office 365</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Experience Timeline -->
+    <section id="experience" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-xs font-bold text-brand-600 tracking-wider uppercase mb-2">Career Journey</h2>
+                <p class="text-3xl font-extrabold text-slate-900 tracking-tight">Professional Work Experience</p>
+            </div>
+
+            <div class="max-w-4xl mx-auto space-y-12">
+
+                <!-- Experience Item 1 -->
+                <div class="relative pl-8 sm:pl-32 group">
+                    <!-- Timeline node -->
+                    <div class="hidden sm:block absolute left-0 top-0 text-sm font-bold text-brand-600 bg-brand-50 px-3 py-1 rounded-md">
+                        2024 - 2026
+                    </div>
+                    <div class="absolute left-0 sm:left-24 top-1.5 w-4 h-4 rounded-full bg-brand-600 ring-4 ring-brand-100"></div>
+                    <div class="absolute left-2 sm:left-26 top-6 bottom-0 w-0.5 bg-slate-200 group-last:hidden"></div>
+
+                    <div class="bg-slate-50 p-6 sm:p-8 rounded-2xl border border-slate-200 hover:border-brand-300 transition-colors">
+                        <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+                            <h3 class="text-xl font-bold text-slate-900">Senior Customer Support Executive - Operations</h3>
+                            <span class="sm:hidden text-xs font-bold text-brand-600 bg-brand-50 px-2 py-0.5 rounded">Jan 2024 - Sep 2026</span>
+                        </div>
+                        <p class="text-sm font-semibold text-brand-700 mb-4">RNFI Services Limited | New Delhi, India</p>
+
+                        <ul class="space-y-2 text-sm text-slate-600 list-disc list-inside">
+                            <li>Managed high-volume service and operational queries for fintech & banking products (UPI, AEPS, DMT, BBPS, MATM).</li>
+                            <li>Investigated complex transaction failures, payment discrepancies, and settlement issues, coordinating with banking partners for resolution.</li>
+                            <li>Tracked strict SLA and TAT commitments for customer & retailer escalations through complete ticket closure.</li>
+                            <li>Supported KYC verification, retailer onboarding, queue monitoring, and operational reporting compliance.</li>
+                            <li>Spearheaded bulk-SMS communication workflows for critical service updates.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience Item 2 -->
+                <div class="relative pl-8 sm:pl-32 group">
+                    <div class="hidden sm:block absolute left-0 top-0 text-sm font-bold text-brand-600 bg-brand-50 px-3 py-1 rounded-md">
+                        2016 - 2022
+                    </div>
+                    <div class="absolute left-0 sm:left-24 top-1.5 w-4 h-4 rounded-full bg-brand-600 ring-4 ring-brand-100"></div>
+                    <div class="absolute left-2 sm:left-26 top-6 bottom-0 w-0.5 bg-slate-200 group-last:hidden"></div>
+
+                    <div class="bg-slate-50 p-6 sm:p-8 rounded-2xl border border-slate-200 hover:border-brand-300 transition-colors">
+                        <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+                            <h3 class="text-xl font-bold text-slate-900">Assistant Manager - Support & Enterprise Telecom Ops</h3>
+                            <span class="sm:hidden text-xs font-bold text-brand-600 bg-brand-50 px-2 py-0.5 rounded">Dec 2016 - Jun 2022</span>
+                        </div>
+                        <p class="text-sm font-semibold text-brand-700 mb-4">_VOIS (Vodafone Intelligent Solutions) - Vodafone Ireland Account | Pune, India</p>
+
+                        <ul class="space-y-2 text-sm text-slate-600 list-disc list-inside">
+                            <li>Supported Account Managers, Sales Managers, Retailers, Channel Partners, and Enterprise Vendors via Email, Chat, and Voice.</li>
+                            <li>Processed complex telecom service requests: SIM replacements, owner transfers, add-ons, prepaid-to-postpaid conversions.</li>
+                            <li>Resolved complex billing queries including credit/debit adjustments, recalculations, and invoice updates.</li>
+                            <li>Managed Geographic Number Portability (GNP) for fixed lines adhering to regulatory standards.</li>
+                            <li>Administered Microsoft Cloud Solution Provider (CSP) setup, tenant creation, and user license assignments.</li>
+                            <li>Logged & prioritized P1-P4 SLA incident tickets in BMC Remedy & Service Navigator.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Experience Item 3 -->
+                <div class="relative pl-8 sm:pl-32 group">
+                    <div class="hidden sm:block absolute left-0 top-0 text-sm font-bold text-brand-600 bg-brand-50 px-3 py-1 rounded-md">
+                        2015 - 2016
+                    </div>
+                    <div class="absolute left-0 sm:left-24 top-1.5 w-4 h-4 rounded-full bg-brand-600 ring-4 ring-brand-100"></div>
+
+                    <div class="bg-slate-50 p-6 sm:p-8 rounded-2xl border border-slate-200 hover:border-brand-300 transition-colors">
+                        <div class="flex flex-wrap items-center justify-between gap-2 mb-2">
+                            <h3 class="text-xl font-bold text-slate-900">Senior Executive - UK Customer Support</h3>
+                            <span class="sm:hidden text-xs font-bold text-brand-600 bg-brand-50 px-2 py-0.5 rounded">Aug 2015 - Nov 2016</span>
+                        </div>
+                        <p class="text-sm font-semibold text-brand-700 mb-4">TTEC | Ahmedabad, India</p>
+
+                        <ul class="space-y-2 text-sm text-slate-600 list-disc list-inside">
+                            <li>Delivered international voice & email support in a fast-paced UK market environment.</li>
+                            <li>Troubleshot complex customer service issues with active listening and empathetic resolution strategies.</li>
+                            <li>Maintained precise CRM documentation following strict service quality and SLA norms.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Achievements & Education -->
+    <section id="achievements" class="py-20 bg-slate-50 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                
+                <!-- Achievements -->
+                <div>
+                    <h2 class="text-xs font-bold text-brand-600 tracking-wider uppercase mb-2">Highlights</h2>
+                    <h3 class="text-3xl font-extrabold text-slate-900 mb-6">Key Contributions</h3>
+
+                    <div class="space-y-4">
+                        <div class="p-5 bg-white rounded-xl border border-slate-200 flex items-start gap-4">
+                            <div class="p-3 bg-brand-50 text-brand-600 rounded-lg">
+                                <i class="fa-solid fa-bullhorn text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-base">Proactive Communication System</h4>
+                                <p class="text-sm text-slate-600 mt-1">Spearheaded targeted bulk-SMS alerts during technical downtime, drastically reducing repeat inbound queries.</p>
+                            </div>
+                        </div>
+
+                        <div class="p-5 bg-white rounded-xl border border-slate-200 flex items-start gap-4">
+                            <div class="p-3 bg-brand-50 text-brand-600 rounded-lg">
+                                <i class="fa-solid fa-chart-line text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-base">Operational Efficiency</h4>
+                                <p class="text-sm text-slate-600 mt-1">Structured ticket update protocols and shift handover workflows, improving SLA adherence and case resolution speed.</p>
+                            </div>
+                        </div>
+
+                        <div class="p-5 bg-white rounded-xl border border-slate-200 flex items-start gap-4">
+                            <div class="p-3 bg-brand-50 text-brand-600 rounded-lg">
+                                <i class="fa-solid fa-circle-check text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-slate-900 text-base">Quality & Process Control</h4>
+                                <p class="text-sm text-slate-600 mt-1">Identified recurring transaction failures and partnered with IT/Engineering teams to deploy corrective action plans.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education & Languages -->
+                <div>
+                    <h2 class="text-xs font-bold text-brand-600 tracking-wider uppercase mb-2">Background</h2>
+                    <h3 class="text-3xl font-extrabold text-slate-900 mb-6">Education & Languages</h3>
+
+                    <div class="bg-white p-6 rounded-2xl border border-slate-200 space-y-6">
+                        <div>
+                            <span class="text-xs font-bold text-brand-600 uppercase">Education</span>
+                            <h4 class="text-lg font-bold text-slate-900 mt-1">Bachelor of Engineering (B.E.)</h4>
+                            <p class="text-sm font-medium text-slate-700">Electrical & Electronics Engineering</p>
+                            <p class="text-xs text-slate-500 mt-1">Rajiv Gandhi Prodyogiki Vishwavidyalaya, Bhopal (2009 - 2013)</p>
+                        </div>
+
+                        <hr class="border-slate-100">
+
+                        <div>
+                            <span class="text-xs font-bold text-brand-600 uppercase">Languages</span>
+                            <div class="grid grid-cols-2 gap-4 mt-3">
+                                <div class="p-3 bg-slate-50 rounded-xl">
+                                    <p class="font-bold text-slate-900 text-sm">English</p>
+                                    <p class="text-xs text-slate-500">Professional Working Proficiency</p>
+                                </div>
+                                <div class="p-3 bg-slate-50 rounded-xl">
+                                    <p class="font-bold text-slate-900 text-sm">Hindi</p>
+                                    <p class="text-xs text-slate-500">Native / Full Professional</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact Section -->
+    <footer id="contact" class="bg-slate-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-12">
+                <div>
+                    <h2 class="text-3xl font-extrabold tracking-tight">Let's Connect & Collaborate</h2>
+                    <p class="text-slate-400 mt-3 text-sm leading-relaxed max-w-lg">
+                        Open to Senior Operations, Enterprise Support, Escalation Management, and Customer Experience Leadership roles.
+                    </p>
+                </div>
+
+                <div class="flex flex-wrap gap-4 lg:justify-end">
+                    <a href="mailto:narendra.sen@hotmail.com" class="px-6 py-3 rounded-xl bg-brand-600 text-white font-medium hover:bg-brand-500 transition-colors flex items-center gap-2">
+                        <i class="fa-solid fa-envelope"></i> Send Email
+                    </a>
+                    <a href="https://linkedin.com/in/narendrakumarsen" target="_blank" rel="noopener noreferrer" class="px-6 py-3 rounded-xl bg-slate-800 text-white font-medium hover:bg-slate-700 transition-colors flex items-center gap-2">
+                        <i class="fa-brands fa-linkedin text-blue-400"></i> Connect on LinkedIn
+                    </a>
+                </div>
+            </div>
+
+            <div class="border-t border-slate-800 pt-8 flex flex-col md:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+                <p>&copy; 2026 Narendra Kumar Sen. All Rights Reserved.</p>
+                <p>Designed for high-impact Customer Support & Operations leadership.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Simple Interactivity JS -->
+    <script>
+        // Mobile Menu Toggle
+        const menuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close menu on click
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
